@@ -11,7 +11,7 @@ git clone git@github.com:sixohsix/twitter.git
 cd twitter/
 sudo python setup.py install
 cd ..
-sudo rm -rf twitter/
+rm -rf twitter/
 ```
 #### Setup Twitter OAuth
 Go to Twitter's [dev central](https://dev.twitter.com/apps/new) and create a new app. Get your *consumer key* and *consumer secret*.
